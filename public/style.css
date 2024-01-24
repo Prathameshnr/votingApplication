@@ -1,0 +1,58 @@
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+
+  font-size: 22px;
+
+  transition: color 0.3s, font-size 0.3s;
+}
+
+nav ul li a:hover {
+  color: goldenrod;
+  font-size: 20px;
+}
+/* Custom styles */
+.container-full {
+  width: 100%;
+}
+
+.radio-container {
+  text-align: center;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.radio-container input {
+  margin-bottom: 10px;
+}
+
+.radio-container img {
+  height: 250px;
+  margin-bottom: 50px;
+}
+
+.submit-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.submit-button {
+  width: 50%;
+  margin-top: 5rem; /* Set width to 50% */
+}
